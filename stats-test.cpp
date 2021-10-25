@@ -26,9 +26,9 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
 	
     s.average = sum/setlength;
 	
-	s.min = tempmin;
+    s.min = tempmin;
     s.max = tempmax;
-	return s;
+    return s;
 }
 
 void emailAlerter()
