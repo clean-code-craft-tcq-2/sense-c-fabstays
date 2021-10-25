@@ -1,3 +1,4 @@
+#include "stats.h"
 #include "alerts.h"
 
 void emailAlerter()
