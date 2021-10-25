@@ -1,3 +1,5 @@
+#include "alerts.h"
+
 void emailAlerter()
 {
 	emailAlertCallCount  = 1;
