@@ -35,8 +35,14 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
     return s;
 }
 
-void check_and_alert()
+void check_and_alert(float maxThreshold, alerter_funcptr alerters[], struct Stats computedStats)
 {
+	if(computedStats.max > maxThreshold)
+	{
+		emailAlerter();
+		ledAlerter();
+	}	
+		
 }
 
 TEST_CASE("reports average, minimum and maximum") {
