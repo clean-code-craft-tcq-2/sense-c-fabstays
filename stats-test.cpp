@@ -39,7 +39,7 @@ void ledAlerter()
 {
 }
 
-check_and_alert()
+void check_and_alert()
 {
 }
 
