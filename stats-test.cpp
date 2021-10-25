@@ -13,7 +13,7 @@ int ledAlertCallCount;
 struct Stats compute_statistics(const float* numberset, int setlength) {
     struct Stats s;
 	float sum =0;
-	if(!(numberset==0)||setlength==0)
+	if !(setlength==0)
 	{
 		float tempmin = numberset[0];
 		float tempmax = numberset[0];
