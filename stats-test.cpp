@@ -31,6 +31,14 @@ struct Stats compute_statistics(const float* numberset, int setlength) {
 	return s;
 }
 
+void emailAlerter()
+{
+}
+
+void ledAlerter()
+{
+}
+
 TEST_CASE("reports average, minimum and maximum") {
     const float numberset[] = {1.5, 8.9, 3.2, 4.5};
     int setlength = sizeof(numberset) / sizeof(numberset[0]);
